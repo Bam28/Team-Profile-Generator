@@ -6,7 +6,8 @@ body {
 header {
     display: flex;
     justify-content: center;
-    background-color: rgb(17, 164, 164);
+    color: aliceblue;
+    background-color: rgb(18, 156, 190);
 }
 
 main {
@@ -23,23 +24,41 @@ main {
     border-radius: 12px;
     width: 275px;
     height: 300px;
+    margin: 20px 0;
 }
 
 .name-position {
-    background-color: aquamarine;
+    background-color: rgb(18, 156, 190);
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
+}
+
+.name {
+    display: flex;
+    margin: 20px 0 0 30px;
+}
+
+.position {
+    display: flex;
+    margin: 15px 0 10px 60px;
 }
 
 .member-info {
     list-style: none;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 12.5% 0;
+    padding: 10px 0;
 }
 
 .member-info li {
     display: flex;
-    margin: 17.5px  12.5%;
+    margin: 5px 12.5% 0 12.5%;
     border: 1px solid black;
+    height: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
 }
 

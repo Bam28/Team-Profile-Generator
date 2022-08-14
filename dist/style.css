@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 164, 164);
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 275px;
+    height: 300px;
+}
+
+.name-position {
+    background-color: aquamarine;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.member-info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-info li {
+    display: flex;
+    margin: 17.5px  12.5%;
+    border: 1px solid black;
+}
+
